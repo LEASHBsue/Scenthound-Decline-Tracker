@@ -242,8 +242,8 @@
         // ==========================================
         const msalConfig = {
             auth: {
-                clientId: "YOUR_CLIENT_ID", // Add your Entra ID Client ID here
-                authority: "https://login.microsoftonline.com/YOUR_TENANT_ID", // Add your Tenant ID here
+                clientId: "47db5229-a470-4efa-895b-380a9da19af3", // Add your Entra ID Client ID here
+                authority: "https://login.microsoftonline.com/b9511ebb-4cb9-4992-a7a5-9e66d5fb2b29", // Add your Tenant ID here
                 redirectUri: window.location.origin // standard redirect for web apps
             }
         };
@@ -253,8 +253,8 @@
             scopes: ["Sites.ReadWrite.All"] // Required scope to write to lists
         };
 
-        const SITE_ID = "YOUR_SITE_ID"; // Target SharePoint Site ID
-        const LIST_ID = "YOUR_LIST_ID"; // Target SharePoint List ID
+        const SITE_ID = "aa335ef4-6dc1-4bb0-8f4c-d124ff03f81f"; // Target SharePoint Site ID
+        const LIST_ID = "7b41b4fe-9308-4b25-b7a2-2ef34ddc8bbc"; // Target SharePoint List ID
         const GRAPH_ENDPOINT = `https://graph.microsoft.com/v1.0/sites/${SITE_ID}/lists/${LIST_ID}/items`;
         // ==========================================
 

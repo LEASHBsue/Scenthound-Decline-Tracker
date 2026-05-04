@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Scenthound Decline Logger",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2yGghJLlEiZvRuuClsH4Ba3/+tLPjQLHFxUKQmtx9q5blk2K2+qP3dVr11Ajs+34tx49k6ggceYpHxHbbEyrnRLXgkY+brnL0cu1NYItwDNe+zrkpHfShhkzC5erA2RI3B3bFbD/hBMnDaP2THlHyvMLZsZmNA8MhM9UZbnyDJStmYDQpxTNhDtZq0NJ9neH+DsStYTOC7br+Z0kuEPACpSjFDABJNonk3PRRovKz8ZHPrsU2A7VK6RvGf1D8dgLqw1eBRZUTxSMeOGyuQUumolj7n1kCZ+tcUDoo6IrS35OD/YtmYU+cp8//ULVm7xh0AKjL25RhJ5pHwoyDNNN/QIDAQAB",
   "version": "1.0",
   "description": "Scrapes MyTime data and logs safety declines.",
   "icons": {

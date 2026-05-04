@@ -5,7 +5,7 @@ const msalConfig = {
     auth: {
         clientId: "47db5229-a470-4efa-895b-380a9da19af3", 
         authority: "https://login.microsoftonline.com/b9511ebb-4cb9-4992-a7a5-9e66d5fb2b29", 
-        redirectUri: typeof chrome !== "undefined" && chrome.identity ? chrome.identity.getRedirectURL() : window.location.origin
+        redirectUri: "chrome-extension://kiilekgkkanikdfbbjgjpkmjjpmameib/popup.html"
     }
 };
 
